@@ -13,7 +13,7 @@ public class One {
 
         int x = (int) (a + b * 2) - 3; // (7+2.5*2)-3 = 2.5*2 = 5+7 = 12-3 => x = 9;
 
-        int bitValue = (numbers[0] & numbers[2]) | 3; //
+        int bitValue = (numbers[0] & numbers[2]) | 3; // 3
 
         boolean result =
                 a > 5 && b < 3 || numbers[1] == 4; // true & true || false => true
@@ -41,9 +41,9 @@ public class One {
         for (int n : numbers) {
             sum += n;
         }
-        System.out.println(sum);
+        System.out.println(sum); //47
 
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(sum / 2 + sum % 2);
+        System.out.println(Arrays.toString(numbers)); // [3,13,5,17,9]
+        System.out.println(sum / 2 + sum % 2); //24
     }
 }
