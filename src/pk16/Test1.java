@@ -10,6 +10,6 @@ public class Test1 {
         int x = 5;
         int y = 9;
         System.out.println(d);
-        System.out.println((x ^ y) + " " + (x & y) + " " + (~x));
+        System.out.println((x ^ y) + " " + (x & y) + " " + (~x)); // ~(x) = -(x+1);
     }
 }
