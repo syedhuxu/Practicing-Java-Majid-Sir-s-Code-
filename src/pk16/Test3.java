@@ -6,7 +6,7 @@ public class Test3 {
         matrix[0] = new int[]{1, 2, 3};
         matrix[1] = matrix[0];
 
-        matrix[1][1] = 99;
+        matrix[1][1] = 99; // both references not points towards the same array ;
 
         for (int val : matrix[0]) {
             System.out.print(val + " ");
