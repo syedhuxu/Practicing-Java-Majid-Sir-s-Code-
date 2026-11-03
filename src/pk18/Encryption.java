@@ -20,6 +20,12 @@ public class Encryption {
                     k = key.charAt(loc);
                     newVal = j+k;
                     fs2.write(newVal);
+
+                    if(loc==keyLen-1){
+                        loc =0;
+                    }else{
+                        loc++;
+                    }
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
