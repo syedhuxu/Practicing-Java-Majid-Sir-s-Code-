@@ -1,7 +1,7 @@
 package pk18;
 import java.io.*;
 
-public class Start {
+public class MergeAlphaDigits {
     static void main(String[] args) {
     try{
         FileInputStream fs1 = new FileInputStream("C:\\Users\\DELL\\OneDrive\\Desktop\\one.txt");
